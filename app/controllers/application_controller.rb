@@ -10,5 +10,5 @@ class ApplicationController < ActionController::Base
   end
 
   def welcome
-    render html: "<p><style fontsize="20">WELCOME</p>"
+    render html: "<p><style fontsize=20>WELCOME</p>"
 end
